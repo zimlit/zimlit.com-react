@@ -5,33 +5,24 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import "./App.css"
-import Home from "./home.js"
+import "./App.css";
+import Home from "./home.js";
+import Coding from "./coding.js";
 
 function App() {
 	return (
-		<div class="header">
-				<Router>
-				<nav>
-            <ul>
-                <li>
-                    <Link to="/coding">coding</Link>
-               </li>
-               <li>
-                    <a href="cubing/cubing.html">cubing</a>
-               </li>
-               <li>
-                    conlanging
-               </li>
-               <li>
-                    <a href="worldbuilding/worldbuilding.html">worldbuilding</a>
-               </li>
-           </ul>
-        </nav>
+		<div>
+			<Router>
 				<Switch>
           <Route path="/coding">
+						<Coding />
           </Route>
-          
+          <Route path="/cubing">
+          </Route>
+					<Route path="/conlanging">
+          </Route>
+					<Route path="/worldbuilding">
+          </Route>
           <Route path="/">
             <Home />
           </Route>
