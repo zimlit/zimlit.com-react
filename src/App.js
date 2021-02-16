@@ -8,6 +8,7 @@ import {
 import "./App.css";
 import Home from "./home.js";
 import Coding from "./coding.js";
+import Cubing from "./cubing.js";
 
 function App() {
 	return (
@@ -18,6 +19,9 @@ function App() {
 						<Coding />
           </Route>
           <Route path="/cubing">
+						<Cubing />
+						<Route path="/cubing/tutorials/zz">
+						</Route>
           </Route>
 					<Route path="/conlanging">
           </Route>
