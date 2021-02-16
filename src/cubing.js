@@ -1,5 +1,6 @@
 import Header from "./header.js";
-import "./cubing.css"
+import ZZ from "./cubing-tutorials/zz/zz.js";
+import "./cubing.css";
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,33 +14,34 @@ import {
 function Cubing() {
 	let match = useRouteMatch();
 	return (
-		<div class="Cubing">
-				<Router>
+		<div class="Cubing">	
 					<Switch>
 						<Route path={`${match.path}/tutorials/zz`}>
+							<ZZ />	
 						</Route>
-						<Route path={match.path}>	
+						<Route path={match.path}>
 							<Header value={["home", "coding", "conlanging", "worldbuilding"]}/>
-								<section class="cat">
-            			<h1 class="label">
-                		tutorials 
-            			</h1>
-            			<ul class="cat-list">
-                		<li class="item">
-                 			<Link  to={`${match.url}/tutorials/zz`}>zz tutorial</Link>
-              			</li>
-              			<li class="item">
-                  		<Link>cfop tutorial</Link>
-              			</li>
-              			<li class="item">
-                  		<Link>roux tutorial</Link>
-              			</li>
-								
-           	 			</ul>
-        				</section>
+							<section class="cat">
+            		<h1 class="label">
+              		tutorials 
+            		</h1>
+            		<ul class="cat-list">
+                	<li class="item">
+                  	<Link  to={`${match.url}/tutorials/zz`}>zz tutorial</Link>
+              		</li>
+              		<li class="item">
+                  	<a href="tutorials/cfop/cfop.html">cfop tutorial</a>
+              		</li>
+              		<li class="item">
+                  	<a href="tutorials/roux/roux.html">roux tutorial</a>
+              		</li>
+									<li class="item">
+                		<a href="tutorials/heise/heise.html">heise tutorial</a>
+                	</li>
+            		</ul>
+        			</section>
 						</Route>
 					</Switch>	
-				</Router>
 		</div>
 	);
 }

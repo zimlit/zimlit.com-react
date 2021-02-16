@@ -20,9 +20,10 @@ function App() {
           </Route>
           <Route path="/cubing">
 						<Cubing />
-						<Route path="/cubing/tutorials/zz">
-						</Route>
+						
           </Route>
+					<Route path="/zz-tut">
+					</Route>
 					<Route path="/conlanging">
           </Route>
 					<Route path="/worldbuilding">

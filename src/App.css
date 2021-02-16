@@ -1,8 +1,11 @@
+body {
+	background-color: #333;
+}
 
 ul {
     list-style: none; 
     text-align: center;
-    background-color: lightgray;
+    background-color: #555;
     padding: 1em;
     margin-right: 1em;
 		margin-left: 1em;
@@ -29,10 +32,12 @@ a:link {
     text-decoration: none;
     background-color: gray;
     border-radius: 10px;
+		color: #369;
 }
   
 a:visited {
     text-decoration: none;
+		color: #358;
 
 }
 
