@@ -26,10 +26,7 @@ function App() {
                <li>
                     <a href="worldbuilding/worldbuilding.html">worldbuilding</a>
                </li>
-               <li>
-                    <a href="linux/linux.html">linux</a>
-                </li>
-            </ul>
+           </ul>
         </nav>
 				<Switch>
           <Route path="/coding">
