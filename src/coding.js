@@ -5,11 +5,18 @@ function Coding() {
 	return (
 		<div>
 			<Header value={["home", "cubing", "conlanging", "worldbuilding"]}/>
-			<p class="github">
-				<a class="github-button" href="https:/github.com/zimlit">github</a>
-			</p>
-			<section class="cat">
-					<h1 class="label">
+			<div class="row">
+				<div class="col-12">
+					<p class="github">
+						<a class="github-button" href="https:/github.com/zimlit">github</a>
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-1"/>
+				<div class="col-10">
+					<section class="cat">
+						<h1 class="label">
                 Projects 
             </h1>
             <h2 class="cat-button">
@@ -21,7 +28,10 @@ function Coding() {
             <h2>
 
             </h2>
-			</section>
+					</section>
+				</div>
+				<div class="col-1"/>
+			</div>
 		</div>
 	);
 }

@@ -23,31 +23,31 @@ function Cubing() {
 							<Header value={["home", "coding", "conlanging", "worldbuilding"]}/>
 							<div class="row">
 								<div class="col-1"/>
-								<div class="col-10">
-									<section class="cat">
-            				<h1 class="label">
-              				tutorials 
-            				</h1>
-										<div class="row">
-											<div class="col-1"/>
-            						<ul class="col-10">
-                					<li class="row">
-														<div class="col-12">
-                  						<Link  to={`${match.url}/tutorials/zz`}>zz tutorial</Link>
-              							</div>
-													</li>
-													<li style={{background: "transparent"}} class="row">
-														<div class="col-12"/>
-              						</li>
-													<li class="row">
-														<div class="col-12">
-                  						<Link  to={`${match.url}/tutorials/zz`}>cfop tutorial</Link>
-              							</div>
-													</li>
-													<li style={{background: "transparent"}} class="row">
-														<div class="col-12"/>
-              						</li>
-              						<li class="row">
+									<div class="col-10">
+										<section class="cat">
+            					<h1 class="label">
+              					tutorials 
+            					</h1>
+											<div class="row">
+												<div class="col-1"/>
+            							<ul class="col-10">
+                						<li class="row">
+															<div class="col-12">
+                  							<Link  to={`${match.url}/tutorials/zz`}>zz tutorial</Link>
+              								</div>
+														</li>
+														<li style={{background: "transparent"}} class="row">
+															<div class="col-12"/>
+              							</li>
+														<li class="row">
+															<div class="col-12">
+                  							<Link  to={`${match.url}/tutorials/zz`}>cfop tutorial</Link>
+              								</div>
+														</li>
+														<li style={{background: "transparent"}} class="row">
+															<div class="col-12"/>
+              							</li>
+              							<li class="row">
 														<div class="col-12">
                   						<Link  to={`${match.url}/tutorials/zz`}>roux tutorial</Link>
               							</div>
