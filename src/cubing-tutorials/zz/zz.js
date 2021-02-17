@@ -20,20 +20,31 @@ function ZZ() {
 	
 				<Route path={match.path}>
 					<Header value={["home", "coding", "cubing", "conlanging", "worldbuilding"]}/>
-					<section class="cat">
-      			<h1 class="label">
-        			Overview
-        		</h1>
-        		<h2>
-          		In the zz method you first orient all edges while solving the fd and bd edges then solve f2l then solve ll
-        		</h2>
-        	</section>
-        	<section class="cat">
-          	<h1 class="label">
-            	zz tutorials beginer to advanced
-          	</h1>
-        		<Link class="cat-button" to={`${match.url}/beginner`}>beginner tutorial</Link>
-        	</section>
+					<div class="row">
+						<div class="col-1"/>
+						<div class="col-10">
+							<section class="cat">
+      					<h1 class="label">
+        					Overview
+        				</h1>
+        				<h2>
+          				In the zz method you first orient all edges while solving the fd and bd edges then solve f2l then solve ll
+        				</h2>
+        			</section>
+						</div>
+						<div class="col-1"/>
+					</div>
+					<div class="row"/>
+        		<div class="col-1"/>
+						<div class="col-10">
+							<section class="cat">
+          			<h1 class="label">
+            			zz tutorials beginer to advanced
+          			</h1>
+        				<Link class="cat-button" to={`${match.url}/beginner`}>beginner tutorial</Link>
+        			</section>
+						</div>
+						<div class="col-1"/>
 				</Route>
 			</Switch>
 		</div>

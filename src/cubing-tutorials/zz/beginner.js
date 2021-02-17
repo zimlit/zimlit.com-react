@@ -13,9 +13,12 @@ function Beginner() {
 	return (
 		<div>
 			<Header value={["home", "coding", "cubing", "conlanging", "worldbuilding"]}/>
-			<section class="cat_zztut">
-                <h1 class="label">
-                    step 1: eoline
+			<div class="row">
+				<div class="col-1"/>
+				<div class="col-8">
+				<section class="cat">
+          <h1 class="label">
+            step 1: eoline
                 </h1>
                 <h2>
                     <h1 class="label">
@@ -70,12 +73,7 @@ function Beginner() {
                             </p>
                         </p>
                 </h2>
-                <aside class="sidebar-zztut">
-                    <p>
-                        an edge is oriented when it can be solved with only [R, U, D, L, F2, B2] moves
-                    </p>
-
-                </aside>
+								
                 <h2>
                     <h1 class="label">
                     part 2: line
@@ -101,8 +99,22 @@ function Beginner() {
                     </p>
                 </h2>
             </section>
-						
-            <section class = "cat">
+						</div>
+						<div class="col-2">
+                <aside class="sidebar-zztut">
+                    <p>
+                        an edge is oriented when it can be solved with only [R, U, D, L, F2, B2] moves
+                    </p>
+
+                </aside>
+								</div>
+								
+								<div class="col-1"/>
+						</div>
+						<div class="row">
+						<div class="col-1"/>
+						<div class="col-10">
+            <section class="cat">
                     <h1 class="label">
                             step 2: F2L
                     </h1>
@@ -118,6 +130,9 @@ function Beginner() {
                             </p>
                     </h2>
             </section>
+						</div>
+						<div class="col-1"/>
+						</div>
 		</div>
 	);
 }
