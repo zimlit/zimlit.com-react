@@ -14,7 +14,7 @@ class Header extends React.Component {
 	}
 	
 	render() {
-		
+		let x = 1;	
 		return (
 			<div class="row">
 				<div class="col-1"/>
@@ -23,13 +23,22 @@ class Header extends React.Component {
     					<ul>
 								{
 									this.props.value.map(function(val) {
-										return (
-											<li key={val}>
-												<Link to={val === "home" ? "/" : "/" + val}>{val}</Link>
-											</li>
-										);
+										if (x === 1) {
+											x += 1;
+											return (
+												<li class="header-f" key={val}>
+													<Link to={val === "home" ? "/" : "/" + val}>{val}</Link>
+												</li>
+											);
+										} else {
+											return (
+												<li class="header" key={val}>
+													<Link to={val === "home" ? "/" : "/" + val}>{val}</Link>
+												</li>
+											);
+										}
 									})
-								}
+								}	
 							</ul>
   					</nav>
 					</div>
