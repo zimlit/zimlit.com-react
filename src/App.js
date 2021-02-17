@@ -9,6 +9,7 @@ import "./App.css";
 import Home from "./home.js";
 import Coding from "./coding.js";
 import Cubing from "./cubing.js";
+import Conlanging from "./conlanging.js";
 
 function App() {
 	return (
@@ -22,9 +23,8 @@ function App() {
 						<Cubing />
 						
           </Route>
-					<Route path="/zz-tut">
-					</Route>
 					<Route path="/conlanging">
+						<Conlanging />
           </Route>
 					<Route path="/worldbuilding">
           </Route>

@@ -14,7 +14,7 @@ import {
 function Cubing() {
 	let match = useRouteMatch();
 	return (
-		<div class="Cubing">	
+		<div>	
 					<Switch>
 						<Route path={`${match.path}/tutorials/zz`}>
 							<ZZ />	

@@ -3,7 +3,7 @@ import "./coding.css"
 
 function Coding() {
 	return (
-		<div class="coding">
+		<div>
 			<Header value={["home", "cubing", "conlanging", "worldbuilding"]}/>
 			<p class="github">
 				<a class="github-button" href="https:/github.com/zimlit">github</a>

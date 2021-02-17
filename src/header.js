@@ -20,7 +20,7 @@ class Header extends React.Component {
     		<ul>
 					{
 						this.props.value.map(function(val) {
-							return <li><Link to={val == "home" ? "/" : "/" + val}>{val}</Link></li>
+							return <li key={val}><Link to={val === "home" ? "/" : "/" + val}>{val}</Link></li>
 						})
 					}
       	</ul>
