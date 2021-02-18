@@ -26,6 +26,14 @@ li {
 
 }
 
+p {
+	text-align: left;
+}
+
+h2 {
+	text-align: left;
+}
+
 .header {	
 	margin-right: 8.33%;
 }
