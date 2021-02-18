@@ -126,7 +126,7 @@ function Beginner() {
                                     part 1: left block
                             </h1>
                             <p>
-                                    For this step you place all of the remaining pieces int left side of the first two layers.
+                                    For this step you place all of the remaining pieces in the left side of the first two layers.
                             </p>
                     </h2>
             </section>

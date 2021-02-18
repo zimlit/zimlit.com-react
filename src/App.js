@@ -10,6 +10,7 @@ import Home from "./home.js";
 import Coding from "./coding.js";
 import Cubing from "./cubing.js";
 import Conlanging from "./conlanging.js";
+import Worldbuilding from "./worldbuilding.js";
 
 function App() {
 	return (
@@ -27,7 +28,8 @@ function App() {
 						<Conlanging />
           </Route>
 					<Route path="/worldbuilding">
-          </Route>
+          	<Worldbuilding />
+					</Route>
           <Route path="/">
             <Home />
           </Route>
