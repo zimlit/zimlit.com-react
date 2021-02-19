@@ -48,13 +48,13 @@ class Star extends React.Component {
 							</div>
 							<div class="row">
 								<div class="col-12">
-									<input type="text" value={this.state.value} onChange={this.handleChange} />
+									<input class="text-input" type="text" value={this.state.value} onChange={this.handleChange} />
 								</div>
 							</div>
 						</label>
 						<div class="row">
 							<div class="col-12">
-								<input type="submit" value="submit"/>
+								<input type="submit" value="submit" class="submit"/>
 							</div>
 						</div>
 					</form>

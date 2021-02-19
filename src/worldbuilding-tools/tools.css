@@ -4,3 +4,15 @@
 	text-align: left;
 	padding: 0em;
 }
+
+.text-input {
+	background: darkgray;
+	border: 0px;
+	border-radius: 5px;
+}
+
+.submit {
+	background: darkgray;
+	border: 0px;
+	border-radius: 15px;
+}

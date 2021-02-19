@@ -24,6 +24,8 @@ constructor(props) {
   handleSubmit(event) {
 		let gravity = this.state.v1/this.state.v2**2;
 		this.setState({a: <ul class="res"> 
+			<li>{`mass: ${5.972e24 * this.state.v1 } kg`}</li>
+			<li>{`radius: ${6378 * this.state.v2} km`}</li>
 			<li>{`gravity: ${gravity * 9.8} m/s`}<sup>2</sup></li>
 			<li>{`density: ${(gravity/this.state.v2) * 5.51} g/cm`}<sup>3</sup></li>
 		</ul>});
@@ -45,7 +47,7 @@ constructor(props) {
 							</div>
 							<div class="row">
 								<div class="col-12">
-									<input type="text" value={this.state.v1} onChange={this.handleChange1} />
+									<input class="text-input" type="text" value={this.state.v1} onChange={this.handleChange1} />
 								</div>
 							</div>
 						</label>
@@ -57,13 +59,13 @@ constructor(props) {
 							</div>
 							<div class="row">
 								<div class="col-12">
-									<input type="text" value={this.state.v2} onChange={this.handleChange2} />
+									<input class="text-input" type="text" value={this.state.v2} onChange={this.handleChange2} />
 								</div>
 							</div>
 						</label>
 						<div class="row">
 							<div class="col-12">
-								<input type="submit" value="submit"/>
+								<input type="submit" class="submit" value="submit"/>
 							</div>
 						</div>
 					</form>
