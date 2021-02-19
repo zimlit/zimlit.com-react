@@ -28,6 +28,9 @@ class Star extends React.Component {
 			<li class="res-elem">{`habitable zone outer: ${Math.sqrt(luminosity/0.53)} au`}</li>
 			<li class="res-elem">{`lifetime: ${(this.state.value/luminosity) * 10000000000} y`}</li>
 			<li class="res-elem">{`temprature: ${((luminosity/radius**2)**(1/4))*5778} K`}</li>
+			<li >{`inner limit of star system: ${0.1*this.state.value} au`}</li>
+			<li>{`outer limit of star system: ${40*this.state.value} au`}</li>
+			<li>{`frost line ${4.85 * Math.sqrt(luminosity)} au`}</li>
 		</ul>});
     event.preventDefault();
   }
