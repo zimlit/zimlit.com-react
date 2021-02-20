@@ -35,12 +35,12 @@ h2 {
 }
 
 .header {	
-	margin-right: 8.33%;
+	margin-right: 4.25%;
 }
 
 .header-f {
-	margin-left: 8.33%;
-	margin-right: 8.33%;
+	margin-left: 4.25%;
+	margin-right: 4.25%;
 }
 
 .cat-list {
@@ -136,14 +136,7 @@ a:active {
 }
 
 @media only screen and (max-width: 1024px) {
-	#header {
-		font-size: 2vw;
-	}
 	.header-f {
 		margin-left: 0%;
-		margin-right: 4.25%;
-	}
-	.header {
-		margin-right: 4.25%;
 	}
 }
