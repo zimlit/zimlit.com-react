@@ -16,7 +16,7 @@ class Header extends React.Component {
 	render() {
 		let x = 1;	
 		return (
-			<div class="row">
+			<div id="header" class="row">
 				<div class="col-1"/>
 					<div class="col-10">	
 						<nav>
